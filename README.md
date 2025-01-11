@@ -29,7 +29,7 @@ Navigation functions may be accessed via your right hand:
 6. 'n' as page down
 
 ## Deletion Keys
-The deletion functions may be accessed exclusively with your left hand:
+The deletion functions may be accessed with your left hand:
 1. 'd' as Backspace
 2. 'f' as Delete (forward delete)
 
