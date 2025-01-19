@@ -28,10 +28,14 @@ The use of the caps lock to access the function layer with your left hand is inc
 
 
 ## Layout
+Below are the specific keymappings within the Caps Lock layer.
+
+Letter and number keys are referred to within single quotes, i.e. the the key immediately to the right of Caps Lock is 'a'. Symbol keys are denoted with their primary character then shifted character in single quotes, i.e. the key to the left of the Backspace is '=+'. Other main functions such as Enter, Backspace, etc. are referred to without quotes.
+
+The forward delete key is referred to as Delete.
 
 ### Toggle Caps Lock
 The caps lock toggle is available by pressing Caps Lock + Space.
-
 
 ### Left Hand (main functions + modifiers)
 1. 'q' as Escape
@@ -42,11 +46,10 @@ The caps lock toggle is available by pressing Caps Lock + Space.
 6. 'a' as Option (alt. Control for Windows)
 7. 's' as Command (alt. Alt for Windows)
 8. 'd' as Backspace
-9. 'f' as Forward Delete
+9. 'f' as Delete
 10. 'z' to access the numpad layer (below)
 11. 'x' as Control
 12. 'c' as Shift
-
 
 ### Right Hand (navigation + miscellaneous)
 Navigation functions may be accessed via your right hand:
@@ -64,9 +67,8 @@ Navigation functions may be accessed via your right hand:
 12. ''"' as '+='
 13. '/?' as '\|'
 
-
 ### Function Keys 
-The number row keys are mapped to the function keys (1 as F1, 2 as F2, ... =/+ as F12).
+The number row keys are mapped to the function keys ('1' as 'F1', '2' as 'F2', ... '=/+' as 'F12').
 
 
 ### Numpad Layer
@@ -79,11 +81,12 @@ The numpad layer is accessed by holding Caps Lock + 'z':
 
 
 ## Usage
-While general usage of the above is quite obvious, what might not be is the chording. For example:
+While general usage of the above is straightforward, what might not be is the chording. For example:
 
-- To delete the previous or next word, hold caps + 'a' (Option) and press 'd' (Backspace) or 'f' (forward delete) respectively.
+- To delete the previous or next word, hold caps + 'a' (Option) and press 'd' (Backspace) or 'f' (Delete) respectively.
 - To delete all text on the line before or after the cursor, hold caps + 's' (Command) and hit 'd' or 'f' respectively.
 - To insert a new line without submitting the current text, hold caps + 'c' (Shift) and hit 'e' (Enter).
+- To unindent or indent a line in a code editor, hold caps + 's' (Command) and hit 'u' ('[{') or o (']}')
 
 All of these critical functions are accessible via your left hand exclusively.
 
