@@ -30,9 +30,9 @@ The use of the caps lock to access the function layer with your left hand is inc
 ## Layout
 Below are the specific keymappings within the Caps Lock layer.
 
-Letter and number keys are referred to within single quotes, i.e. the the key immediately to the right of Caps Lock is 'a'. Symbol keys are denoted with their primary character then shifted character in single quotes, i.e. the key to the left of the Backspace is '=+'. Other main functions such as Enter, Backspace, etc. are referred to without quotes.
+Letter and number keys are referred to within single quotes, i.e. the the key immediately to the right of Caps Lock is 'a'. Symbol keys are denoted with their primary character then shifted character in single quotes, i.e. the key to the left of the Backspace is '=+'. Other main functions such as Enter, Backspace, etc. are referred to without quotes. The forward delete key is referred to as Delete.
 
-The forward delete key is referred to as Delete.
+The Caps Lock key is simply referred to as **caps** below.
 
 ### Toggle Caps Lock
 The caps lock toggle is available by pressing Caps Lock + Space.
@@ -73,52 +73,26 @@ The number row keys are mapped to the function keys ('1' as 'F1', '2' as 'F2', .
 
 ### Numpad Layer
 The numpad layer is accessed by holding Caps Lock + 'z':
-1. 7, 8, and 9 map to themselves
-2. u, i, o map to 4, 5, 6
-3. j, k, l map to 1, 2, 3
-4. m and comma map to 0 and 00 respectively
-5. period maps to itself
+1. '7', '8', and '9' map to themselves
+2. 'u', 'i', 'o' map to '4', '5', '6'
+3. 'j', 'k', 'l' map to '1', '2', '3'
+4. 'm' and ',<' map to '0' and '00' respectively
+5. '.>' maps to a simple period/decimal point '.'
 
 
 ## Usage
-While general usage of the above is straightforward, what might not be is the chording. For example:
+While general usage of the above is straightforward, what might not be is the chording. For example, the following critical functions may be accessed with your left hand exclusively:
 
-- To delete the previous or next word, hold caps + 'a' (Option) and press 'd' (Backspace) or 'f' (Delete) respectively.
+- To delete the previous or next word, hold caps + 'a' (Option) and hit 'd' (Backspace) or 'f' (Delete) respectively.
 - To delete all text on the line before or after the cursor, hold caps + 's' (Command) and hit 'd' or 'f' respectively.
 - To insert a new line without submitting the current text, hold caps + 'c' (Shift) and hit 'e' (Enter).
-- To unindent or indent a line in a code editor, hold caps + 's' (Command) and hit 'u' ('[{') or o (']}')
-
-All of these critical functions are accessible via your left hand exclusively.
 
 Furthermore,
 
-- To jump the cursor to the next or previous word, hold caps + 'a' (Option) and press 'l' (right arrow) or 'j' (left arrow) respectively 
+- To jump the cursor to the next or previous word, hold caps + 'a' (Option) and hit 'l' (right arrow) or 'j' (left arrow) respectively 
 - To highlight the previous or next page of text, hold caps + 'c' (Shift) and press 'h' (Page Up) or 'n' (Page Down) respectively
+- To unindent or indent a line in a code editor, hold caps + 's' (Command) and hit 'u' ('[{') or 'o' (']}')
 
 
 ## Comments
-I have tried to avoid remapping common functions which are already easily accessible and ergonomic, e.g., Cmd + 's' as Save is already easy enough to access, so there's no real need to remap it to this layer. On the other hand, Replace (Cmd + Opt + 'f') is horribly unergonomic, especially on my current keyboard which lacks a right Option key, and has therefore been remapped to caps + 'r'. 
-
-
----------------
-AI Instuctions:
-Please familiarize yourself with the caps layer documentation above.
-
-You:
-- a keyboard nerd
-- someone who has studied alternative key mappings and keyboard layerings extensively
-- someone who has used keyboards of all sizes, including 40% keyboards and minimalist keyboards with extensive layering
-
-The user:
-- developing a "caps lock layer" as described above to be useful to other typists in improving their speed, efficiency, and comfort.
-- not very familiar with keyboard layering, winging it
-
-Your role is as the user's assistant in making suggestions to improve and expand the layer above.
-
-Avoid suggestions which:
-- remap common key bindings already ergonomic and accessible such as save, cut, copy, paste, undo, etc.
-- utilize tabbing functions (e.g. mod+tab or mod+shift+tab as the keyboard software does not support this)
-- utilize additional layers, as my keyboard's software does not support this.
-- utilize OS-level functions like toggling Bluetooth or manipulating the mouse
-
-Let's start with an easy one: 't'. Please suggest a keymapping for the key combination caps + 't'.
+I have tried to avoid remapping common functions which are already easily accessible and ergonomic, e.g., Cmd + 's' as Save is already easy enough to access, so there's no real need to remap it to this layer. On the other hand, Replace (Cmd + Opt + 'f') is horribly unergonomic, especially on my current keyboard which lacks a right Option key, and has therefore been remapped to caps + 'r'.
