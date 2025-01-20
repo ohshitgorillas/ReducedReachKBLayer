@@ -2,30 +2,33 @@
 
 
 ## Introduction
-This project reprograms the Caps Lock key to instead yield access to a function layer that increases typing comfort and ergonomics by reducing the amount of hand movement in typing. It brings several critical and often-used features within reach of the home row.
+This project introduces a remapping of the Caps Lock key to a function layer, enhancing typing comfort and efficiency by minimizing finger movement. It prioritizes placing frequently used functions on the home row of the keyboard.
 
 ### Inspiration
-The inspiration for this project comes from small keyboard designs (40-60%) which promote reduced hand movement fewer keys, using function layers to access the functions of the 'missing' keys. For instance, 60% keyboards eliminate the dedicated keys for the numpad, navigation keys, function keys, and insert/delete keys. These "missing keys" are usually accessed through function layers, e.g. fn + Backspace for Delete.
+This project is inspired by the layering found in 60% and smaller keyboards. These reduce hand movement by using function layers to access missing keys like the numpad, navigation keys, and function keys. For instance, a 60% keyboard might require pressing fn + Backspace for Delete.
 
-### Description
-This layout is optimized for general writing and coding and probably sucks for gamers.
+### Functionality
+This layout is designed for everyday tasks like writing and coding, and probably sucks for gamers.
 
-The approach is such that the left hand has a few tasks:
-- Accessing modifiers (Ctrl, Opt/Win, Alt/Cmd, Shift)
-- Performing 'main' functions (Enter, Backspace/Delete aka forward delete)
-- Bringing up access to the numpad layer.
+The left hand handles:
+- modifier keys (Control, Alt, Command, etc.)
+- Essential functions (Enter, Backspace/Delete)
+- Accessing the numpad and media layers
 
-whereas the right hand is responsible for:
-- Navigation features (arrow keys, pg up/dn, etc)
-- Access symbol keys that otherwise require reaching
-- Accessing the keys for the numpad layer
-
+The right hand handles:
+- Navigation (arrow keys, Pg Up/Dn)
+- Symbol keys
+- The "numpad" keys and media functions
 
 
 ### Compatibility
-This layout can be applied to most traditional (non-ortholinear) keyboards 60% and up, allowing users of larger keyboards to 'test drive' the benefits of a smaller keyboard layout without committing to a physical downsize. While the functionality is not as complex as some custom small keyboard layouts, a significant advantage of this approach is that you don't need to completely re-learn how to type. All the original key functions remain unchanged except for Caps Lock (toggled by Caps Lock + Space), allowing users to fall back on old habits when necessary.
+This layout works with most traditional keyboards (non-ortholinear) that are 60% or larger. 
 
-The use of the caps lock to access the function layer with your left hand is incompatible with most HHKB-style keyboards, which place Control in the Caps Lock position. Some HHKB-style boards may offer a dedicated left-hand function key, e.g. next to left shift, however, ergonomics are optimized for the key in the traditional Caps Lock position. The spacebar is also a possibility for accessing the layer (tap for space, hold for layer). 
+Besides improving typing efficiency and comfort, it allows users of bigger keyboards to experiment with the benefits of a 60% layout without needing to commit to a downsizing. A significant advantage of this approach over full-on custom 40% layering is that you don't need to relearn how to type. All the original key functions remain unchanged except for Caps Lock (toggled by Caps Lock + Space). This lets you revert to old habits in a pinch.
+
+This project is incompatible with most HHKB-style keyboards that have Ctrl in the Caps Lock position. Some HHKB-style keyboards may offer a dedicated left-hand function key, but the ergonomics are optimized for the key in the traditional Caps Lock position. 
+
+The spacebar can also be used to access the layer (tap for space, hold for layer) if the user's software supports it.
 
 
 ## Layout
@@ -53,17 +56,17 @@ The caps lock toggle is available by pressing ⇪ + Space.
 
 ### Left Hand (main functions + modifiers)
 1. 'q' → ⎋
-2. 'w' → ⌃ (alt. ⊞ for Windows)
+2. 'w' → ⌃ (⊞ for Windows)
 3. 'e' → ↵
 4. 'r' → Print
-5. 'a' → ⌥ (alt. ⌃ for Windows)
-6. 's' → ⌘ (alt. Alt for Windows)
+5. 'a' → ⌥ (⌃ for Windows)
+6. 's' → ⌘ (Alt for Windows)
 7. 'd' → ⌫
 8. 'f' → ⌦
-9. 'z' opens access to the Numpad layer below
+9. 'z' opens the Numpad layer
 10. 'x' → F13
 11. 'c' → ⇧
-12. 'v' opens access to the Media layer below
+12. 'v' opens the Media layer
 
 
 ### Right Hand (navigation + symbols)
@@ -112,45 +115,33 @@ The media layer is accessed by holding ⇪ + 'v':
 The below sections detail the usage of the layer.
 
 ### Chording
-While general usage is straightforward, what may not be is the chording. For example, the following critical functions may be accessed with your left hand exclusively:
+While general usage is straightforward, what may not be is the chording. For example, the following critical functions may be accessed with your left hand exclusively by chording multiple keys:
+- Delete the previous or next word: Hold ⇪ + 'a' (⌥) and press 'd' (⌫) or 'f' (⌦).
+- Delete all text on the line before or after the cursor: Hold ⇪ + 's' (⌘) and press 'd' or 'f'.
+- Insert a new line without submitting the current text: Hold ⇪ + 'c' (⇧) and press 'e' (↵).
 
-- To delete the previous or next word, hold ⇪ + 'a' (⌥) and hit 'd' (⌫) or 'f' (⌦) respectively.
-- To delete all text on the line before or after the cursor, hold ⇪ + 's' (⌘) and hit 'd' or 'f' respectively.
-- To insert a new line without submitting the current text, hold ⇪ + 'c' (⇧) and hit 'e' (↵).
-
-Furthermore, by including the navigation functions with our right hand:
-
-- To jump the cursor to the next or previous word, hold ⇪ + 'a' (⌥) and hit 'l' (right arrow) or 'j' (left arrow) respectively 
-- To highlight the previous or next page of text, hold ⇪ + 'c' (⇧) and press 'h' (Page Up) or 'n' (Page Down) respectively
-- To unindent or indent a line in a code editor, hold ⇪ + 's' (⌘) and hit 'u' ('[{') or 'o' (']}') respectively
-
-
-## Modifier Modifications for Windows
-Because modifier keys behave differently in Windows versus macOS, we make the following modifications to adapt the layout for Windows:
-
-1. 'a' → ⌃
-2. 's' → Alt
-3. 'w' → ⊞
+Furthermore, by including the navigation functions with our right hand, we may access even more functions:
+– Jump the cursor to the next or previous word: Hold ⇪ + 'a' (⌥) and press 'l' (right arrow) or 'j' (left arrow).
+- Highlight the previous or next page of text: Hold ⇪ + 'c' (⇧) and press 'h' (Page Up) or 'n' (Page Down).
+- Unindent or indent a line in a code editor: Hold ⇪ + 's' (⌘) and press 'u' ('[{') or 'o' (']}')
 
 
 ## F13
-The layer includes access to the user-programmable F13 key via 'x'.
+The layer includes access to the user-programmable F13 key via ⇪ + 'x'.
 
-Personally, I have this key mapped to Non-US Backslash (NUBS) or '§±' in Karabiner-Elements, which then maps to Compose via the use of the US Custom keyboard layout. Compose allows me to write non-standard characters such as → by pressing caps + 'x' to enable composition mode, then typing '->'.
-
-For instructions on enabling the Compose key in macOS, see https://uscustom.sourceforge.net/#installation. Standard key combiations are here: https://github.com/tsibley/compose/blob/master/compose
+I have this key mapped to Compose, which allows me to write non-standard characters such as → by pressing caps + 'x' to enable composition mode, then typing '->'. For instructions on enabling the Compose key in macOS, see https://uscustom.sourceforge.net/#installation. Standard key combiations are here: https://github.com/tsibley/compose/blob/master/compose. 
 
 
 ## Comments
-Whenever possible, I have tried to map functions to keys that could be mnemonic or at least easy to remember:
+Whenever possible, keys are mapped mnemonically or to be generally easy to remember: 
 - Escape ('quit') to 'q'
 - Win key to 'w'
 - Enter to 'e'
-- pRint to 'r' (too much of a strech? fair enough...)
+- pRint to 'r' (no? too much of a strech? fair enough...)
 - Backspace ('delete') to 'd'
 - Delete ('forward delete') to 'f'
 - '/?' aka forward slash to '\\|' aka backslash
 
-In other instances, however, keys are mapped based on usefulness and ergonomics: for example, while it may be more mnemonic to swap ⇧ (Shift) and ⌘ (Command) to 's' and 'c' respectively, the placement of ⌘ at 's' allows for chording the keys ⇪ + 's' + 'f' (⌘ + ⌦), which is far more ergonomic than chording ⇪ + 'c' + 'f'. Because ⌘ + ⌦ is useful, and ⇧ + ⌦ is not, it therefore makes most ergonomic sense to place ⌘ at 's' and ⇧ at 'c'. Furthermore, the location of ⇧ at 'c' enables the chording of 'c' + 'e', or ⇧ + ↵, which is relatively more ergonomic than 's' + 'e'. 
+In other cases, keys are mapped to optimize ergonomics. For instance, while it may be more mnemonic to swap ⇧ (Shift) and ⌘ (Command) to 's' and 'c' respectively, ⌘ is instead mapped to 's' to enable the ergonomic chord ⇪ + 's' + 'f' (⌘ + ⌦) and avoid the unergomonic ⇪ + 'c' + 'f'. 
 
-I have tried to avoid remapping common functions which are already easily accessible and ergonomic, e.g., ⌘ + 's' as Save is already easy enough to access, so there's no real need to remap it to this layer.
+the placement of ⌘ at 's' allows for chording the keys ⇪ + 's' + 'f' (⌘ + ⌦), which is far more ergonomic than chording ⇪ + 'c' + 'f'. Because ⌘ + ⌦ is useful, and ⇧ + ⌦ is not, it therefore makes most ergonomic sense to place ⌘ at 's' and ⇧ at 'c'. Furthermore, the location of ⇧ at 'c' enables the chording of 'c' + 'e', or ⇧ + ↵, which is relatively more ergonomic than 's' + 'e'. 
