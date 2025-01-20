@@ -129,9 +129,9 @@ Furthermore, by including the navigation functions with our right hand, we may a
 
 
 ## F13
-The layer includes access to the user-programmable F13 key via ⇪ + 'x'.
+The layer includes access to the user-programmable F13 key via ⇪ + 'x'. This can be whatever you want.
 
-I have this key mapped to Compose, which allows me to write non-standard characters such as → by pressing caps + 'x' to enable composition mode, then typing '->'. For instructions on enabling the Compose key in macOS, see https://uscustom.sourceforge.net/#installation. Standard key combiations are here: https://github.com/tsibley/compose/blob/master/compose. 
+I have this key mapped to Compose, which allows me to write non-standard characters such as → by pressing caps + 'x' to enable composition mode, then typing '->'. For instructions on enabling the Compose key in macOS, see https://uscustom.sourceforge.net/#installation. Standard compose combinations are here: https://github.com/tsibley/compose/blob/master/compose. 
 
 
 ## Comments
