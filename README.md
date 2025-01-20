@@ -4,7 +4,7 @@
 ## Introduction
 This project introduces a remapping of the Caps Lock key to a function layer, enhancing typing comfort and efficiency by minimizing hand movement. It prioritizes placing frequently used functions on the home row of the keyboard.
 
-Besides improving typing efficiency and comfort, it allows users of bigger keyboards to experience and/or experiment with the benefits of a smaller layout without committing to a physical downsizing. A significant advantage of this approach is that you don't need to relearn how to type: all the original key functions remain unchanged except for Caps Lock (toggled by Caps Lock + Space), letting you revert to old habits in a pinch.
+It also allows users of bigger keyboards to experience and/or experiment with the benefits of a smaller layout without committing to a physical downsizing. A significant advantage of this approach is that you don't need to relearn how to type: all the original key functions remain unchanged except for Caps Lock (toggled by Caps Lock + Space), letting you revert to old habits in a pinch.
 
 ### Inspiration
 This project is inspired by the layering found in 60% and smaller keyboards. These reduce hand movement by using function layers to access missing keys like the numpad, navigation keys, and function keys. For instance, a 60% keyboard might require pressing fn + Backspace for Delete.
