@@ -80,7 +80,7 @@ Navigation functions may be accessed via your right hand:
 10. 'o' → ']}'
 11. 'n' → '-_'
 12. 'm' → '+='
-13. '/?' → '\|'
+13. '/?' → '\\|'
 
 
 ### Function Keys 
@@ -88,7 +88,7 @@ The number row keys are mapped to the function keys ('1' as 'F1', '2' as 'F2', .
 
 
 ### Numpad Layer
-The numpad layer is accessed by holding Caps Lock + 'z':
+The numpad layer is accessed by holding ⇪ + 'z':
 1. '7', '8', and '9' map to themselves
 2. 'u', 'i', 'o' map to '4', '5', '6'
 3. 'j', 'k', 'l' map to '1', '2', '3'
@@ -149,7 +149,7 @@ Whenever possible, I have tried to map functions to keys that could be mnemonic 
 - pRint to 'r' (too much of a strech? fair enough...)
 - Backspace ('delete') to 'd'
 - Delete ('forward delete') to 'f'
-- /? aka forward slash to \| aka backslash
+- '/?' aka forward slash to '\\|' aka backslash
 
 In other instances, however, keys are mapped based on usefulness and ergonomics: for example, while it may be more mnemonic to swap ⇧ (Shift) and ⌘ (Command) to 's' and 'c' respectively, the placement of ⌘ at 's' allows for chording the keys ⇪ + 's' + 'f' (⌘ + ⌦), which is far more ergonomic than chording ⇪ + 'c' + 'f'. Because ⌘ + ⌦ is useful, and ⇧ + ⌦ is not, it therefore makes most ergonomic sense to place ⌘ at 's' and ⇧ at 'c'. Furthermore, the location of ⇧ at 'c' enables the chording of 'c' + 'e', or ⇧ + ↵, which is relatively more ergonomic than 's' + 'e'. 
 
