@@ -143,5 +143,3 @@ Whenever possible, keys are mapped mnemonically or to be generally easy to remem
 - '/?' aka forward slash to '\\|' aka backslash
 
 In other cases, keys are mapped to optimize ergonomics. For instance, while it may be more mnemonic to swap ⇧ (Shift) and ⌘ (Command) to 's' and 'c' respectively, ⌘ is instead mapped to 's' to enable the ergonomic chord ⇪ + 's' + 'f' (⌘ + ⌦) and avoid the unergomonic ⇪ + 'c' + 'f'. 
-
-the placement of ⌘ at 's' allows for chording the keys ⇪ + 's' + 'f' (⌘ + ⌦), which is far more ergonomic than chording ⇪ + 'c' + 'f'. Because ⌘ + ⌦ is useful, and ⇧ + ⌦ is not, it therefore makes most ergonomic sense to place ⌘ at 's' and ⇧ at 'c'. Furthermore, the location of ⇧ at 'c' enables the chording of 'c' + 'e', or ⇧ + ↵, which is relatively more ergonomic than 's' + 'e'. 
