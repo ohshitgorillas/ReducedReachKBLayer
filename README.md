@@ -2,13 +2,15 @@
 
 
 ## Introduction
-This project introduces a remapping of the Caps Lock key to a function layer, enhancing typing comfort and efficiency by minimizing finger movement. It prioritizes placing frequently used functions on the home row of the keyboard.
+This project introduces a remapping of the Caps Lock key to a function layer, enhancing typing comfort and efficiency by minimizing hand movement. It prioritizes placing frequently used functions on the home row of the keyboard.
+
+Besides improving typing efficiency and comfort, it allows users of bigger keyboards to experience and/or experiment with the benefits of a smaller layout without committing to a physical downsizing. A significant advantage of this approach is that you don't need to relearn how to type: all the original key functions remain unchanged except for Caps Lock (toggled by Caps Lock + Space), letting you revert to old habits in a pinch.
 
 ### Inspiration
 This project is inspired by the layering found in 60% and smaller keyboards. These reduce hand movement by using function layers to access missing keys like the numpad, navigation keys, and function keys. For instance, a 60% keyboard might require pressing fn + Backspace for Delete.
 
-### Functionality
-This layout is designed for everyday tasks like writing and coding, and probably sucks for gamers.
+### Concept
+This layout is designed for tasks like writing and coding, and probably sucks for gaming where 'wasd' is king.
 
 The left hand handles:
 - modifier keys (Control, Alt, Command, etc.)
@@ -16,19 +18,19 @@ The left hand handles:
 - Accessing the numpad and media layers
 
 The right hand handles:
-- Navigation (arrow keys, Pg Up/Dn)
-- Symbol keys
+- Navigation
+- Certain symbol keys
 - The "numpad" keys and media functions
+
+It is optimized for a US English ANSI layout.
 
 
 ### Compatibility
 This layout works with most traditional keyboards (non-ortholinear) that are 60% or larger. 
 
-Besides improving typing efficiency and comfort, it allows users of bigger keyboards to experiment with the benefits of a 60% layout without needing to commit to a downsizing. A significant advantage of this approach over full-on custom 40% layering is that you don't need to relearn how to type. All the original key functions remain unchanged except for Caps Lock (toggled by Caps Lock + Space). This lets you revert to old habits in a pinch.
+This project is incompatible with most HHKB-style keyboards that have Ctrl in the Caps Lock position. Some HHKB-style keyboards may offer a dedicated left-hand function key, however, the ergonomics are optimized for the key in the traditional Caps Lock position. 
 
-This project is incompatible with most HHKB-style keyboards that have Ctrl in the Caps Lock position. Some HHKB-style keyboards may offer a dedicated left-hand function key, but the ergonomics are optimized for the key in the traditional Caps Lock position. 
-
-The spacebar can also be used to access the layer (tap for space, hold for layer) if the user's software supports it.
+The spacebar can also be used to access the layer (tap for space, hold for layer) if the user's software supports it with good ergonomics.
 
 
 ## Layout
