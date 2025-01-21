@@ -52,9 +52,11 @@ Letter and number keys are referred to within single quotes, i.e. the the key im
 The Caps Lock key is denoted ⇪ below.
 
 ![image](https://github.com/user-attachments/assets/9f3c4a39-9794-4a0b-9e6f-d8e070f78e36)
+
 The image above displays the basic function layer for macOS.
 
 ![image](https://github.com/user-attachments/assets/847b7352-6bb0-46be-99ae-7519f2dbcba4)
+
 The image above dispalys the basic function layer for Windows/Linux.
 
 
@@ -107,6 +109,8 @@ The numpad layer is accessed by holding ⇪ + 'z':
 4. 'm' and ',<' map to '0' and '00' respectively
 5. '.>' maps to a period/decimal point '.'
 
+![image](https://github.com/user-attachments/assets/27e3ee0d-3d7f-4d81-b853-ee53530402f2)
+
 
 ### Media Layer
 The media layer is accessed by holding ⇪ + 'v':
@@ -118,6 +122,8 @@ The media layer is accessed by holding ⇪ + 'v':
 6. '.>' → next track
 7. 'h' → stop
 8. ';:' → play/pause
+
+![image](https://github.com/user-attachments/assets/92ed35b4-ca0e-489d-b53f-0279933e59e2)
 
 
 ### Layer Toggle
