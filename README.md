@@ -155,8 +155,8 @@ I have this key mapped to Compose, which allows me to write non-standard charact
 Whenever possible, keys are mapped mnemonically or to be generally easy to remember: 
 - Escape ('quit') to 'q'
 - Win key to 'w'
-- Enter to 'e'
-- pRint to 'r' (no? too much of a strech? fair enough...)
+- Print (which also 'executes' the current script in VS Code) as 'e'
+- Enter ('Return') as 'r'
 - Backspace ('delete') to 'd'
 - Delete ('forward delete') to 'f'
 - '/?' aka forward slash to '\\|' aka backslash
