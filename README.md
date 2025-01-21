@@ -1,36 +1,42 @@
-# Caps Lock as a Left-Hand Function Layer
+# Reduced Reach Keyboard Layer aka RRKB Layer
 
+### This project is under currently under heavy construction and is changing daily. If you are interested, please check back for config files.
 
 ## Introduction
-This project introduces a remapping of the Caps Lock key to a function layer, enhancing typing comfort and efficiency by minimizing hand movement. It prioritizes placing frequently used functions on the home row of the keyboard.
+This project introduces a remapping of the Caps Lock key to a left-handed function layer, enhancing typing comfort and efficiency by minimizing hand movement. This is accomplished by placing frequently used functions on or near the home row of the keyboard within the layer.
 
-It also allows users of bigger keyboards to experience and/or experiment with the benefits of a smaller layout without committing to a physical downsizing. A significant advantage of this approach is that you don't need to relearn how to type: all the original key functions remain unchanged except for Caps Lock (toggled by Caps Lock + Space), letting you revert to old habits in a pinch.
+### Inspiration and Benefits
+This project is inspired by the layering found in small keyboards. These reduce hand movement by using far fewer keys; 'missing' functions, or those lacking dedicated keys, are accessed via complex layering. As examples, see https://www.reddit.com/r/MechanicalKeyboards/comments/1h3e8ns/bringing_the_full_keyboard_to_within_reach_of/ and https://github.com/argenkiwi/kenkyo
 
-### Inspiration
-This project is inspired by the layering found in 60% and smaller keyboards. These reduce hand movement by using function layers to access missing keys like the numpad, navigation keys, and function keys. For instance, a 60% keyboard might require pressing fn + Backspace for Delete.
+This project seeks to bring some of those benefits to users of traditional keyboards by mapping frequently used features onto the 60% portion of the keyboard under a layer accessed by holding the "Caps Lock" key. This allows users to experience and experiment with the benefits of such keyboards like reduced reaching without needing to commit to a physical downsizing, memorizing multiple complex layers, or needing to re-learn how to type: all original key functions remain unchanged except for Caps Lock (accessed via Caps Lock + Space), letting users revert to old habits in a pinch.
+
+As an example, the following functions may be accessed without moving your fingers from the home row:
+- Jump the cursor to the next or previous word
+- Delete the previous or next word
+- Delete all text on the current line before or after the cursor
+
+By including the rows above and below home, we can access an even wider array of functions without needing to significantly move our hands. Key mappings are optimized for ergonomics and easy memorization.
 
 ### Concept
-This layout is designed for tasks like writing and coding, and probably sucks for gaming where 'wasd' is king.
+This layer is optimized for writing and coding on a US English ANSI layout.
 
 The left hand handles:
-- modifier keys (Control, Alt, Command, etc.)
+- Modifiers (Control, Option, Command, Shift)
 - Essential functions (Enter, Backspace/Delete)
-- Accessing the numpad and media layers
+- Opening access to the numpad and media layers
+- Accessing F13 (user programmable function)
 
 The right hand handles:
 - Navigation
 - Certain symbol keys
 - The "numpad" keys and media functions
 
-It is optimized for a US English ANSI layout.
-
-
 ### Compatibility
 This layout works with most traditional keyboards (non-ortholinear) that are 60% or larger. 
 
 This project is incompatible with most HHKB-style keyboards that have Ctrl in the Caps Lock position. Some HHKB-style keyboards may offer a dedicated left-hand function key, however, the ergonomics are optimized for the key in the traditional Caps Lock position. 
 
-The spacebar can also be used to access the layer (tap for space, hold for layer) if the user's software supports it with good ergonomics.
+The spacebar can also be used to access the layer with good ergonomics (tap for space, hold for layer) if the user's software supports it.
 
 
 ## Layout
