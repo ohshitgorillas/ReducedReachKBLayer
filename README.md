@@ -51,6 +51,12 @@ Letter and number keys are referred to within single quotes, i.e. the the key im
 
 The Caps Lock key is denoted ⇪ below.
 
+![image](https://github.com/user-attachments/assets/9f3c4a39-9794-4a0b-9e6f-d8e070f78e36)
+The image above displays the basic function layer for macOS.
+
+![image](https://github.com/user-attachments/assets/847b7352-6bb0-46be-99ae-7519f2dbcba4)
+The image above dispalys the basic function layer for Windows/Linux.
+
 
 ### Toggle Caps Lock
 The caps lock toggle is available by pressing ⇪ + Space.
@@ -61,6 +67,7 @@ The caps lock toggle is available by pressing ⇪ + Space.
 2. 'w' → ⌃ (⊞ for Windows)
 3. 'e' → ↵
 4. 'r' → Print
+5. 't' → Toggle layer
 5. 'a' → ⌥ (⌃ for Windows)
 6. 's' → ⌘ (Alt for Windows)
 7. 'd' → ⌫
@@ -111,6 +118,10 @@ The media layer is accessed by holding ⇪ + 'v':
 6. '.>' → next track
 7. 'h' → stop
 8. ';:' → play/pause
+
+
+### Layer Toggle
+The layer may be toggled with ⇪ + 't' such that the user does not need to hold down ⇪ to access the functions.
 
 
 ## Usage
