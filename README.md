@@ -3,12 +3,12 @@
 ### This project is under currently under heavy construction and is changing daily. If you are interested, please check back for config files.
 
 ## Introduction
-This project introduces a remapping of the Caps Lock key to a left-handed function layer, enhancing typing comfort and efficiency by minimizing hand movement. This is accomplished by placing frequently used functions on or near the home row of the keyboard within the layer.
+This project remaps the Caps Lock key to a left-handed function layer which brings frequently used functions within reach of the home row, enhancing typing comfort and efficiency by minimizing hand movement.
 
 ### Inspiration and Benefits
 This project is inspired by the layering found in small keyboards. These reduce hand movement by using far fewer keys; 'missing' functions, or those lacking dedicated keys, are accessed via complex layering. As examples, see https://www.reddit.com/r/MechanicalKeyboards/comments/1h3e8ns/bringing_the_full_keyboard_to_within_reach_of/ and https://github.com/argenkiwi/kenkyo
 
-This project seeks to bring some of those benefits to users of traditional keyboards by mapping frequently used features onto the 60% portion of the keyboard under a layer accessed by holding the "Caps Lock" key. This allows users to experience and experiment with the benefits of such keyboards like reduced reaching without needing to commit to a physical downsizing, memorizing multiple complex layers, or needing to re-learn how to type: all original key functions remain unchanged except for Caps Lock (accessed via Caps Lock + Space), letting users revert to old habits in a pinch.
+This project seeks to bring some of those benefits to users of traditional keyboards by mapping frequently used features onto the 60% portion of the keyboard under a layer accessed by holding the "Caps Lock" key. This allows users to experience and experiment with the benefits of such keyboards without comitting to a physical downsizing, memorizing multiple complex layers, or needing to re-learn how to type: all original key functions remain unchanged except for Caps Lock (accessed via Caps Lock + Space), letting users revert to old habits in a pinch.
 
 As an example, the following functions may be accessed without moving your fingers from the home row:
 - Jump the cursor to the next or previous word
@@ -17,24 +17,19 @@ As an example, the following functions may be accessed without moving your finge
 
 By including the rows above and below home, we can access an even wider array of functions without needing to significantly move our hands. Key mappings are optimized for ergonomics and easy memorization.
 
-### Concept
-This layer is optimized for writing and coding on a US English ANSI layout.
+Furthermore, the following commands may be accessed exclusively with your left hand:
+- Delete and backspace
+- Return
+- Escape
+- All modifiers
+- Any modifier or combination of modifiers + backspace, enter, delete
 
-The left hand handles:
-- Modifiers (Control, Option, Command, Shift)
-- Essential functions (Enter, Backspace/Delete)
-- Opening access to the numpad and media layers
-- Accessing F13 (user programmable function)
-
-The right hand handles:
-- Navigation
-- Certain symbol keys
-- The "numpad" keys and media functions
+This makes for effective use of critical functions while also navigating with the mouse or with the right-handed navigation functions under the layer.
 
 ### Compatibility
 This layout works with most traditional keyboards (non-ortholinear) that are 60% or larger. 
 
-This project is incompatible with most HHKB-style keyboards that have Ctrl in the Caps Lock position. Some HHKB-style keyboards may offer a dedicated left-hand function key, however, the ergonomics are optimized for the key in the traditional Caps Lock position. 
+This project is incompatible with most HHKB-style keyboards that have Ctrl in the Caps Lock position. Some HHKB-style keyboards may offer a dedicated left-hand function key that could be used instead, however, the ergonomics are optimized for the key in the traditional Caps Lock position. 
 
 The spacebar can also be used to access the layer with good ergonomics (tap for space, hold for layer) if the user's software supports it.
 
@@ -53,7 +48,7 @@ For brevity, I use the following symbols:
 - ⌦: Delete (forward delete)
 - ⊞: Super/Win key
 
-Letter and number keys are referred to within single quotes, i.e. the the key immediately to the right of Tab is 'q'. Symbol keys are denoted with their primary character followed by the shifted character in single quotes, i.e. the key to the left of ⌫ on a US English ANSI layout is '=+'.
+Letter and number keys are referred to in 'code' form, i.e. the the key immediately to the right of Tab is denoted `q`. Symbol keys are denoted with their primary character followed by the shifted character in single quotes, i.e. the key to the left of ⌫ on a US English ANSI layout is `=+`.
 
 The Caps Lock key is denoted ⇪ below.
 
