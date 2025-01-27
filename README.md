@@ -3,7 +3,9 @@
 ### This project is under currently under heavy construction and is changing daily. If you are interested, please check back for config files.
 
 ## Introduction
-This project remaps the Caps Lock key to a left-handed function layer which brings frequently used functions within reach of the home row, enhancing typing comfort and efficiency by minimizing hand movement.
+The Reduced Reach Keyboard (RRKB) Layer project remaps the Caps Lock key to a left-handed function layer which brings frequently used functions within reach of the home row, enhancing typing comfort and efficiency by minimizing hand movement.
+
+While the functionality of the RRKB layer should be generally useful for typing, it is optimized for programming.
 
 ### Inspiration and Benefits
 This project is inspired by the layering found in small keyboards. These reduce hand movement by using far fewer keys; 'missing' functions, or those lacking dedicated keys, are accessed via complex layering. As examples, see https://www.reddit.com/r/MechanicalKeyboards/comments/1h3e8ns/bringing_the_full_keyboard_to_within_reach_of/ and https://github.com/argenkiwi/kenkyo
@@ -43,12 +45,11 @@ For brevity, I use the following symbols:
 - ⌃: Control
 - ⇧: Shift
 - ↵: Enter/Return
-- ⎋: Escape
 - ⌫: Backspace
 - ⌦: Delete (forward delete)
 - ⊞: Super/Win key
 
-Letter and number keys are referred to in `code` form, i.e. the the key immediately to the right of Tab is denoted `q`. Symbol keys are denoted with their primary character followed by the shifted character in single quotes, i.e. the key to the left of ⌫ on a US English ANSI layout is `=+`.
+Letter and number keys are referred to in `code` form, i.e. the the key immediately to the right of Tab is `q`. Symbol keys are denoted with their primary character followed by the shifted character in single quotes, i.e. the key to the left of ⌫ on a US English ANSI layout is `=+`.
 
 The Caps Lock key is denoted ⇪.
 
@@ -62,23 +63,23 @@ The image above dispalys the basic function layer for Windows/Linux.
 
 
 ### Toggle Caps Lock
-The caps lock toggle is available by pressing ⇪ + Space.
+The caps lock toggle is available by pressing ⇪ + spacebar.
 
 
 ### Left Hand (main functions + modifiers)
-1. `q` → ⎋
-2. `w` → ⌃ (⊞ for Windows)
-3. `e` → ↵
-4. `r` → Print
-5. `t` → Toggle layer
-5. `a` → ⌥ (⌃ for Windows)
-6. `s` → ⌘ (Alt for Windows)
+1. `q` toggles the layer on/off
+2. `w` → ⌃ on Mac, ⊞ on Windows
+3. `e` → ⇧
+4. `r` → ↵
+5. `a` → ⌥ on Mac, ⌃ on Windows
+6. `s` → ⌘ on Mac, Alt on Windows
 7. `d` → ⌫
 8. `f` → ⌦
-9. `z` opens the Numpad layer
-10. `x` → F13
-11. `c` → ⇧
-12. `v` opens the Media layer
+9. `z` opens the numpad layer
+10. `x` → ⌃ + ⇧ + Tab (go to previous tab)
+11. `c` → ⌃ + Tab (go to next tab)
+
+The left hand can be used to access common functions that traditionally require the right hand such as enter, backspace, and delete, allowing the user to comfortably perform these functions while navigating with the right hand or mouse. This prevents the need to, e.g., repeatedly move the right hand between the keyboard and mouse, or between the arrows and other keys, to access these functions while navigating.
 
 
 ### Right Hand (navigation + symbols)
@@ -95,7 +96,9 @@ Navigation functions may be accessed via your right hand:
 10. `o` → `]}`
 11. `n` → `-_`
 12. `m` → `+=`
-13. `/?` → `\\|`
+13. `/?` → `\|`
+
+The right hand accesses navigation functions such as arrow keys and page up/down. It also brings a few common symbols used in programming to within reduced reach.
 
 
 ### Function Keys 
@@ -113,32 +116,22 @@ The numpad layer is accessed by holding ⇪ + `z`:
 ![image](https://github.com/user-attachments/assets/27e3ee0d-3d7f-4d81-b853-ee53530402f2)
 
 
-### Media Layer
-The media layer is accessed by holding ⇪ + `v`:
-1. `j` → skip backwards
-2. `l` → skip forwards
-3. `i` → volume up
-4. `k` → volume down
-5. `,<` → previous track
-6. `.>` → next track
-7. `h` → stop
-8. `;:` → play/pause
-
-![image](https://github.com/user-attachments/assets/92ed35b4-ca0e-489d-b53f-0279933e59e2)
-
-
 ### Layer Toggle
-The layer may be toggled with ⇪ + `t` such that the user does not need to hold down ⇪ to access the functions.
+The layer may be toggled with ⇪ + `q` such that the user does not need to hold down ⇪ to access the functions.
+
+
+### 
 
 
 ## Usage
-The below sections detail the usage of the layer.
+The below sections detail the usage of the RRKB layer.
+
 
 ### Chording
-While general usage is straightforward, what may not be is the chording. For example, the following critical functions may be accessed with your left hand exclusively by chording multiple keys:
+While general usage is straightforward, what may not be is the "chording", or the use of multiple key combinations to access various functions. For example, the following critical functions may be accessed with your left hand exclusively by chording multiple keys:
 - Delete the previous or next word: Hold ⇪ + `a` (⌥) and press `d` (⌫) or `f` (⌦).
 - Delete all text on the line before or after the cursor: Hold ⇪ + `s` (⌘) and press `d` or `f`.
-- Insert a new line without submitting the current text: Hold ⇪ + `c` (⇧) and press `e` (↵).
+- Insert a new line without submitting the current text (e.g., when composing a message): Hold ⇪ + `c` (⇧) and press `e` (↵).
 
 Furthermore, by including the navigation functions with our right hand, we may access even more functions:
 – Jump the cursor to the next or previous word: Hold ⇪ + `a` (⌥) and press `l` (right arrow) or `j` (left arrow).
@@ -146,20 +139,29 @@ Furthermore, by including the navigation functions with our right hand, we may a
 - Unindent or indent a line in a code editor: Hold ⇪ + `s` (⌘) and press `u` (`[{`) or `o` (`]}`)
 
 
-## F13
-The layer includes access to the user-programmable F13 key via ⇪ + `x`. This can be whatever you want.
-
-I have this key mapped to Compose, which allows me to write non-standard characters such as → by pressing caps + `x` to enable composition mode, then typing `->`. For instructions on enabling the Compose key in macOS, see https://uscustom.sourceforge.net/#installation. Standard compose combinations are here: https://github.com/tsibley/compose/blob/master/compose. 
-
-
-## Comments
+### Memorizing the Layout
 Whenever possible, keys are mapped mnemonically or to be generally easy to remember: 
-- Escape ("quit") to `q`
-- Win key to `w`
-- Print (which also `executes` the current script in VS Code) as `e`
+- Super ("Win" key) to `w`
 - Enter ("Return") as `r`
 - Backspace ("delete") to `d`
 - Delete ("forward delete") to `f`
-- `/?` aka forward slash to `\\|` aka backslash
+- `/?` aka forward slash to `\|` aka backslash
 
-In other cases, keys are mapped to optimize ergonomics. For instance, while it may be more mnemonic to swap ⇧ (Shift) and ⌘ (Command) to `s` and `c` respectively, ⌘ is instead mapped to `s` to enable the ergonomic chord ⇪ + `s` + `f` (⌘ + ⌦) and avoid the unergomonic ⇪ + `c` + `f`. 
+In other cases, keys are mapped to optimize ergonomics. For instance, while it may be more mnemonic to place ⌘ (Command) at `c`, ⌘ is instead mapped to `s` to enable the ergonomic chord ⇪ + `s` + `f` (⌘ + ⌦) and avoid the unergomonic ⇪ + `c` + `f`. Similarly, Shift is placed at `e` to enable easy chording with Enter at `r`. 
+
+Because the functions within the layer are quite dense and will take time to get used to, it's recommended to start slow. The most useful functions are accessing these from the left hand:
+1. ⇪ + `r` as Enter
+2. ⇪ + `d` or `f` as Backspace and Delete respectively.
+3. ⇪ + `a` + `d` or `f` to delete the previous or next word, respectively.
+
+From there, work on incorporating:
+1. Arrow keys as `ijkl`
+2. Shift as `e` in combination with `ijkl` for highlighting text
+3. Opt and Cmd as `a` and `s` in combination with `e` and `ijkl` to highlight words or lines of text.
+4. Ctrl/Win as `w` with `jl` to switch desktops
+
+Lastly, users may work on incorporating the miscellaneous navigation functions, symbols, and numpad layer.
+
+
+### Customization
+Users are free to customize and add to the layer 
