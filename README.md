@@ -100,6 +100,8 @@ Navigation functions may be accessed via your right hand:
 
 The right hand accesses navigation functions such as arrow keys and page up/down. It also brings a few common symbols used in programming to within reduced reach.
 
+I have avoided placing navigation functions in the spaces reserved for `u` and `o`. This is because, in experience, "typos" are 
+
 
 ### Function Keys 
 The number row keys are mapped to the function keys (`1` as `F1`, `2` as `F2`, ... `=/+` as `F12`).
@@ -164,4 +166,4 @@ Lastly, users may work on incorporating the miscellaneous navigation functions, 
 
 
 ### Customization
-Users are free to customize and add to the layer 
+The `z` row of the keyboard is left open for user customization. I personally map a few symbols to the bottom row 
