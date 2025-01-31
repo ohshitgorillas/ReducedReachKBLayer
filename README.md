@@ -3,14 +3,12 @@
 ### This project is under currently under heavy construction and is changing daily. If you are interested, please check back for config files.
 
 ## Introduction
-The Reduced Reach Keyboard (RRKB) Layer project remaps the Caps Lock key to a left-handed function layer which brings frequently used functions within reach of the home row, enhancing typing comfort and efficiency by minimizing hand movement.
-
-While the functionality of the RRKB layer should be generally useful for typing, it is optimized for programming.
+The Reduced Reach Keyboard (RRKB) Layer project remaps the Caps Lock key to a left-handed function layer which brings frequently used functions within reach of the home row, enhancing typing ergonomics and efficiency by promoting reduced hand movement.
 
 ### Inspiration and Benefits
 This project is inspired by the layering found in small keyboards. These reduce hand movement by using far fewer keys; 'missing' functions, or those lacking dedicated keys, are accessed via complex layering. As examples, see https://www.reddit.com/r/MechanicalKeyboards/comments/1h3e8ns/bringing_the_full_keyboard_to_within_reach_of/ and https://github.com/argenkiwi/kenkyo
 
-This project seeks to bring some of those benefits to users of traditional keyboards by mapping frequently used features onto the 60% portion of the keyboard under a layer accessed by holding the "Caps Lock" key. This allows users to experience and experiment with the benefits of such keyboards without comitting to a physical downsizing, memorizing multiple complex layers, or needing to re-learn how to type: all original key functions remain unchanged except for Caps Lock (accessed via Caps Lock + Space), letting users revert to old habits in a pinch.
+This project aims to bring some of those benefits to users of more traditional keyboards by mapping frequently used features onto the 60% portion of the keyboard under a layer accessed by holding the "Caps Lock" key. This allows users to experience and experiment with the benefits of such keyboards without comitting to a physical downsizing, memorizing multiple complex layers, or needing to re-learn how to type: all original key functions remain unchanged except for Caps Lock (accessed via Caps Lock + Space), letting users revert to old habits in a pinch.
 
 As an example, the following functions may be accessed without moving your fingers from the home row:
 - Jump the cursor to the next or previous word
@@ -29,7 +27,7 @@ Furthermore, the following commands may be accessed exclusively with your left h
 This makes for effective use of critical functions while also navigating with the mouse or with the right-handed navigation functions under the layer.
 
 ### Compatibility
-This layout works with most traditional keyboards (non-ortholinear) that are 60% or larger. 
+This layout works with most traditional keyboards (non-ortholinear) that are 60% or larger. The functions may be easily mapped onto any alternative international layouts.
 
 This project is incompatible with most HHKB-style keyboards that have Ctrl in the Caps Lock position. Some HHKB-style keyboards may offer a dedicated left-hand function key that could be used instead, however, the ergonomics are optimized for the key in the traditional Caps Lock position. 
 
@@ -49,9 +47,7 @@ For brevity, I use the following symbols:
 - ⌦: Delete (forward delete)
 - ⊞: Super/Win key
 
-Letter and number keys are referred to in `code` form, i.e. the the key immediately to the right of Tab is `q`. Symbol keys are denoted with their primary character followed by the shifted character in single quotes, i.e. the key to the left of ⌫ on a US English ANSI layout is `=+`.
-
-The Caps Lock key is denoted ⇪.
+Letter and number keys are referred to in `code` form, i.e. the the key immediately to the right of Tab is `q`. The Caps Lock key is denoted ⇪.
 
 ![image](https://github.com/user-attachments/assets/9f3c4a39-9794-4a0b-9e6f-d8e070f78e36)
 
@@ -67,22 +63,21 @@ The caps lock toggle is available by pressing ⇪ + spacebar.
 
 
 ### Left Hand (main functions + modifiers)
-1. `q` toggles the layer on/off
+1. `q` opens the numpad layer
 2. `w` → ⌃ on Mac, ⊞ on Windows
 3. `e` → ⇧
 4. `r` → ↵
-5. `a` → ⌥ on Mac, ⌃ on Windows
-6. `s` → ⌘ on Mac, Alt on Windows
-7. `d` → ⌫
-8. `f` → ⌦
-9. `z` opens the numpad layer
-10. `x` → ⌃ + ⇧ + Tab (go to previous tab)
-11. `c` → ⌃ + Tab (go to next tab)
+5. `t` toggles the layer on/off (i.e., so you don't have to hold down ⇪) 
+6. `a` → ⌥ on Mac, ⌃ on Windows
+7. `s` → ⌘ on Mac, Alt on Windows
+8. `d` → ⌫
+9. `f` → ⌦
+10. `g` → Insert
 
-The left hand can be used to access common functions that traditionally require the right hand such as enter, backspace, and delete, allowing the user to comfortably perform these functions while navigating with the right hand or mouse. This prevents the need to, e.g., repeatedly move the right hand between the keyboard and mouse, or between the arrows and other keys, to access these functions while navigating.
+The left hand can be used to access common functions that traditionally require the right hand such as enter, backspace, and delete, allowing the user to comfortably perform these functions while navigating with the right hand or mouse without needing to move the right hand back and forth.
 
 
-### Right Hand (navigation + symbols)
+### Right Hand (navigation)
 Navigation functions may be accessed via your right hand:
 1. `i` → up 
 2. `j` → left
@@ -90,17 +85,11 @@ Navigation functions may be accessed via your right hand:
 4. `l` → right
 5. `y` → Page Up
 6. `h` → Page Down
-7. `p` → Home
-8. `;:` → End
-9. `u` →`[{`
-10. `o` → `]}`
-11. `n` → `-_`
-12. `m` → `+=`
-13. `/?` → `\|`
+7. `u` → Home
+8. `o` → End
+9. `p` → Print Screen
 
-The right hand accesses navigation functions such as arrow keys and page up/down. It also brings a few common symbols used in programming to within reduced reach.
-
-I have avoided placing navigation functions in the spaces reserved for `u` and `o`. This is because, in experience, "typos" are 
+The right hand accesses navigation functions such as arrow keys and page up/down.
 
 
 ### Function Keys 
@@ -115,14 +104,7 @@ The numpad layer is accessed by holding ⇪ + `z`:
 4. `m` and `,<` map to `0` and `00` respectively
 5. `.>` maps to a period/decimal point `.`
 
-![image](https://github.com/user-attachments/assets/27e3ee0d-3d7f-4d81-b853-ee53530402f2)
-
-
-### Layer Toggle
-The layer may be toggled with ⇪ + `q` such that the user does not need to hold down ⇪ to access the functions.
-
-
-### 
+![image](https://github.com/user-attachments/assets/27e3ee0d-3d7f-4d81-b853-ee53530402f2) 
 
 
 ## Usage
@@ -147,7 +129,6 @@ Whenever possible, keys are mapped mnemonically or to be generally easy to remem
 - Enter ("Return") as `r`
 - Backspace ("delete") to `d`
 - Delete ("forward delete") to `f`
-- `/?` aka forward slash to `\|` aka backslash
 
 In other cases, keys are mapped to optimize ergonomics. For instance, while it may be more mnemonic to place ⌘ (Command) at `c`, ⌘ is instead mapped to `s` to enable the ergonomic chord ⇪ + `s` + `f` (⌘ + ⌦) and avoid the unergomonic ⇪ + `c` + `f`. Similarly, Shift is placed at `e` to enable easy chording with Enter at `r`. 
 
