@@ -49,13 +49,17 @@ For brevity, I use the following symbols:
 
 Letter and number keys are referred to in `code` form, i.e. the the key immediately to the right of Tab is `q`. The Caps Lock key is denoted ⇪.
 
-![image](https://github.com/user-attachments/assets/9f3c4a39-9794-4a0b-9e6f-d8e070f78e36)
+The image below displays the function layer for macOS.
 
-The image above displays the basic function layer for macOS.
+![image](https://github.com/user-attachments/assets/db71a6f9-5c96-43e8-8961-49cd6a71e745)
 
-![image](https://github.com/user-attachments/assets/847b7352-6bb0-46be-99ae-7519f2dbcba4)
+The image below dispalys the basic function layer for Windows/Linux.
 
-The image above dispalys the basic function layer for Windows/Linux.
+![image](https://github.com/user-attachments/assets/5a0efd9e-7a08-4f3c-b094-782228a78b75)
+
+The image below displays the numpad layer:
+
+![image](https://github.com/user-attachments/assets/a904da2b-2a39-4528-8deb-92ca30bcfb1a)
 
 
 ### Toggle Caps Lock
@@ -103,8 +107,6 @@ The numpad layer is accessed by holding ⇪ + `z`:
 3. `j`, `k`, `l` map to `1`, `2`, `3`
 4. `m` and `,<` map to `0` and `00` respectively
 5. `.>` maps to a period/decimal point `.`
-
-![image](https://github.com/user-attachments/assets/27e3ee0d-3d7f-4d81-b853-ee53530402f2) 
 
 
 ## Usage
