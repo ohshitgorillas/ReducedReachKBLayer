@@ -10,19 +10,11 @@ This project is inspired by the layering found in small keyboards. These reduce 
 
 This project aims to bring some of those benefits to users of more traditional keyboards by mapping frequently used features onto the 60% portion of the keyboard under a layer accessed by holding the "Caps Lock" key. This allows users to experience and experiment with the benefits of such keyboards without comitting to a physical downsizing, memorizing multiple complex layers, or needing to re-learn how to type: all original key functions remain unchanged except for Caps Lock (accessed via Caps Lock + Space), letting users revert to old habits in a pinch.
 
-As an example, the following functions may be accessed without moving your fingers from the home row:
-- Jump the cursor to the next or previous word
-- Delete the previous or next word
-- Delete all text on the current line before or after the cursor
-
-By including the rows above and below home, we can access an even wider array of functions without needing to significantly move our hands. Key mappings are optimized for ergonomics and easy memorization.
-
-Furthermore, the following commands may be accessed exclusively with your left hand:
+As an example, the following commands may be accessed exclusively with your left hand:
 - Delete and backspace
 - Return
 - Escape
 - All modifiers
-- Any modifier or combination of modifiers + backspace, enter, delete
 
 This makes for effective use of critical functions while also navigating with the mouse or with the right-handed navigation functions under the layer.
 
