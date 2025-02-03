@@ -13,7 +13,6 @@ This project aims to bring some of those benefits to users of more traditional k
 As an example, the following commands may be accessed exclusively with your left hand:
 - Delete and backspace
 - Return
-- Escape
 - All modifiers
 
 This makes for effective use of critical functions while also navigating with the mouse or with the right-handed navigation functions under the layer.
@@ -54,11 +53,8 @@ The image below displays the numpad layer:
 ![image](https://github.com/user-attachments/assets/a904da2b-2a39-4528-8deb-92ca30bcfb1a)
 
 
-### Toggle Caps Lock
-The caps lock toggle is available by pressing ⇪ + spacebar.
-
-
 ### Left Hand (main functions + modifiers)
+The left hand can be used to access common functions that traditionally require the right hand such as enter, backspace, and delete, allowing the user to comfortably perform these functions while navigating with the right hand or mouse, minimizing repetitive movements of the right hand.
 1. `q` opens the numpad layer
 2. `w` → ⌃ on Mac, ⊞ on Windows
 3. `e` → ⇧
@@ -69,8 +65,6 @@ The caps lock toggle is available by pressing ⇪ + spacebar.
 8. `d` → ⌫
 9. `f` → ⌦
 10. `g` → Insert
-
-The left hand can be used to access common functions that traditionally require the right hand such as enter, backspace, and delete, allowing the user to comfortably perform these functions while navigating with the right hand or mouse without needing to move the right hand back and forth.
 
 
 ### Right Hand (navigation)
@@ -85,12 +79,6 @@ Navigation functions may be accessed via your right hand:
 8. `o` → End
 9. `p` → Print Screen
 
-The right hand accesses navigation functions such as arrow keys and page up/down.
-
-
-### Function Keys 
-The number row keys are mapped to the function keys (`1` as `F1`, `2` as `F2`, ... `=/+` as `F12`).
-
 
 ### Numpad Layer
 The numpad layer is accessed by holding ⇪ + `z`:
@@ -99,6 +87,14 @@ The numpad layer is accessed by holding ⇪ + `z`:
 3. `j`, `k`, `l` map to `1`, `2`, `3`
 4. `m` and `,<` map to `0` and `00` respectively
 5. `.>` maps to a period/decimal point `.`
+
+
+### Miscellaneous Features
+Below are the miscellaneous features of the layout:
+
+- The caps lock feature is accessed by ⇪ + spacebar.
+- The layer may be toggled with ⇪ + `t` such that ⇪ does not need to be held to access the layer. Pressing `t` will then un-toggle the layer.
+- The number row keys are mapped to the function keys (`1` as `F1`, `2` as `F2`, ... `=/+` as `F12`). This is a common remapping found in most 65% or smaller keyboards.
 
 
 ## Usage
