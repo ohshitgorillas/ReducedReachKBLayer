@@ -113,14 +113,16 @@ Furthermore, by including the navigation functions with our right hand, we may a
 - Move a line of text up or down (in some editors): Hold ⇪ + `a` (⌥) and press `i` (up) or `k` (down).
 
 
-### Memorizing the Layout
+### Learning the Layout
 Whenever possible, keys are mapped mnemonically or to be generally easy to remember: 
 - Super ("Win" key) to `w`
 - Enter ("Return") as `r`
-- Backspace ("delete") to `d`
+- Backspace ("delete previous") to `d`
 - Delete ("forward delete") to `f`
 
-In other cases, keys are mapped to optimize ergonomics. For instance, while it may be more mnemonic to place ⌘ (Command) at `c`, ⌘ is instead mapped to `s` to enable the ergonomic chord ⇪ + `s` + `f` (⌘ + ⌦) and avoid the unergomonic ⇪ + `c` + `f`. Similarly, Shift is placed at `e` to enable easy chording with Enter at `r`. 
+In other cases, keys are mapped to optimize ergonomics. For instance, while it may be more mnemonic to place ⇧ (Shift) at `s`, ⌘ is instead mapped to `s` and ⇧ to `e` because the ergonomics are better this way:
+- Chording ⌘ + ⌫ or ⌦ is useful, whereas ⇧ is not (to my knowledge). I therefore keep ⌘ on the home row with ⌫ and ⌦, because ⇪ + `s` + `d` is more ergonomic than, e.g., ⇪ + `e` + `d`.
+- Chording ⇧ + ↵ is more common than chording ⌘ + ↵ (in my experience), and ⇪ + `e` + `r` is more ergonomic than ⇪ + `s` + `r`, although both are possible without too much effort.
 
 Because the functions within the layer are quite dense and will take time to get used to, it's recommended to start slow. The most useful functions are accessing these from the left hand:
 1. ⇪ + `r` as Enter
@@ -130,13 +132,11 @@ Because the functions within the layer are quite dense and will take time to get
 From there, work on incorporating:
 1. Arrow keys as `ijkl`
 2. Shift as `e` in combination with `ijkl` for highlighting text
-3. Opt and Cmd as `a` and `s` in combination with `e` and `ijkl` to highlight words or lines of text.
+3. Opt or Cmd as `a` or `s` in combination with `e` and `ijkl` to highlight words or lines of text.
 4. Ctrl/Win as `w` with `jl` to switch desktops
 
 Lastly, users may work on incorporating the miscellaneous navigation functions, symbols, and numpad layer.
 
 
 ### Customization
-The `z` row of the keyboard is left open for user customization. I personally map a few symbols and misc functions for programming to the bottom row:
-
-1. `z` 
+The `z` row of the keyboard is left open for user customization. As someone who frequently writes code, I tend to map frequently used symbols like `_`, `+`, `{`, `}` which require hitting shift and reaching away from home row to access.
