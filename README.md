@@ -137,4 +137,6 @@ Lastly, users may work on incorporating the miscellaneous navigation functions, 
 
 
 ### Customization
-The `z` row of the keyboard is left open for user customization. I personally map a few symbols to the bottom row 
+The `z` row of the keyboard is left open for user customization. I personally map a few symbols and misc functions for programming to the bottom row:
+
+1. `z` 
