@@ -105,12 +105,12 @@ The below sections detail the usage of the RRKB layer.
 While general usage is straightforward, what may not be is the "chording", or the use of multiple key combinations to access various functions. For example, the following critical functions may be accessed with your left hand exclusively by chording multiple keys:
 - Delete the previous or next word: Hold ⇪ + `a` (⌥) and press `d` (⌫) or `f` (⌦).
 - Delete all text on the line before or after the cursor: Hold ⇪ + `s` (⌘) and press `d` or `f`.
-- Insert a new line without submitting the current text (e.g., when composing a message): Hold ⇪ + `c` (⇧) and press `e` (↵).
+- Insert a new line without submitting the current text (e.g., when composing a message): Hold ⇪ + `e` (⇧) and press `r` (↵).
 
-Furthermore, by including the navigation functions with our right hand, we may access even more functions:
+Furthermore, by including the navigation functions with our right hand, we may access even more functions. For example:
 – Jump the cursor to the next or previous word: Hold ⇪ + `a` (⌥) and press `l` (right arrow) or `j` (left arrow).
-- Highlight the previous or next page of text: Hold ⇪ + `c` (⇧) and press `h` (Page Up) or `n` (Page Down).
-- Unindent or indent a line in a code editor: Hold ⇪ + `s` (⌘) and press `u` (`[{`) or `o` (`]}`)
+- Highlight the previous or next page of text: Hold ⇪ + `e` (⇧) and press `y` (Page Up) or `h` (Page Down).
+- Move a line of text up or down (in some editors): Hold ⇪ + `a` (⌥) and press `i` (up) or `k` (down).
 
 
 ### Memorizing the Layout
