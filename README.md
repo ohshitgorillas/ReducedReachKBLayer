@@ -119,6 +119,7 @@ Whenever possible, keys are mapped mnemonically or to be generally easy to remem
 - Enter ("Return") as `r`
 - Backspace ("delete previous") to `d`
 - Delete ("forward delete") to `f`
+- Print Screen to `p`
 
 In other cases, keys are mapped to optimize ergonomics. For instance, while it may be more mnemonic to place ⇧ (Shift) at `s`, ⌘ is instead mapped to `s` and ⇧ to `e` because the ergonomics are better this way:
 - Chording ⌘ + ⌫ or ⌦ is useful, whereas ⇧ is not (to my knowledge). I therefore keep ⌘ on the home row with ⌫ and ⌦, because ⇪ + `s` + `d` is more ergonomic than, e.g., ⇪ + `e` + `d`.
