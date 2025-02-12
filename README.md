@@ -6,29 +6,29 @@
 The Reduced Reach Keyboard (RRKB) Layer project remaps the Caps Lock key to a left-handed function layer which brings frequently used functions within reach of the home row, enhancing typing ergonomics and efficiency by promoting reduced hand movement.
 
 ### Inspiration and Benefits
-This project is inspired by the layering found in small keyboards. These reduce hand movement by using far fewer keys; 'missing' functions, or those lacking dedicated keys, are accessed via complex layering. As examples, see https://www.reddit.com/r/MechanicalKeyboards/comments/1h3e8ns/bringing_the_full_keyboard_to_within_reach_of/ and https://github.com/argenkiwi/kenkyo
+This project is inspired by the layering necessary for very small custom keyboards. These promote improved ergonomics and reduce hand movement by using far fewer keys; 'missing' functions, or those lacking dedicated keys, are accessed via function key layering. As examples, see https://www.reddit.com/r/MechanicalKeyboards/comments/1h3e8ns/bringing_the_full_keyboard_to_within_reach_of/ and https://github.com/argenkiwi/kenkyo
 
-This project aims to bring some of those benefits to users of more traditional keyboards by mapping frequently used features onto the 60% portion of the keyboard under a layer accessed by holding the "Caps Lock" key. This allows users to experience and experiment with the benefits of such keyboards without comitting to a physical downsizing, memorizing multiple complex layers, or needing to re-learn how to type: all original key functions remain unchanged except for Caps Lock (accessed via Caps Lock + Space), letting users revert to old habits in a pinch.
-
-As an example, the following commands may be accessed exclusively with your left hand:
-- Delete and backspace
-- Return
+This project aims to bestow some of those benefits onto users of more traditional, larger keyboards by mapping frequently used features onto the 60% portion of the keyboard under a function layer accessed by reprogramming the "Caps Lock" key. As an example, the following commands may be accessed with your left hand, leaving your right hand free to navigate with arrow keys or the mouse:
+- Backspace (backwards delete)
+- Delete (forward delete)
+- Enter
 - All modifiers
 
-This makes for effective use of critical functions while also navigating with the mouse or with the right-handed navigation functions under the layer.
+This allows users to experience and experiment with the benefits of such keyboards without comitting to a physical downsizing, memorizing multiple complex layers, or needing to re-learn how to type: all original key functions remain unchanged except for Caps Lock (accessed via Caps Lock + Space), letting users revert to old habits in a pinch.
 
 ### Compatibility
-This layout works with most traditional keyboards (non-ortholinear) that are 60% or larger. The functions may be easily mapped onto any alternative international layouts.
+This layout works with most 60% or larger traditional keyboards (non-ortholinear).
 
-This project is incompatible with most HHKB-style keyboards that have Ctrl in the Caps Lock position. Some HHKB-style keyboards may offer a dedicated left-hand function key that could be used instead, however, the ergonomics are optimized for the key in the traditional Caps Lock position. 
+Furthermore, this project is incompatible with most HHKB-style keyboards that place Ctrl in the Caps Lock position. Some HHKB-style keyboards may offer a dedicated left-hand function key that could be used instead, however, the ergonomics are optimized for the key in the traditional Caps Lock position. 
 
-The spacebar can also be used to access the layer with good ergonomics (tap for space, hold for layer) if the user`s software supports it.
+The spacebar can also be used to access the layer with good ergonomics (tap for space, hold for layer) if the user`s software hardware supports it.
 
 
 ## Layout
 Below are the specific keymappings within the Caps Lock layer.
 
 For brevity, I use the following symbols:
+- ⇪: Caps Lock
 - ⌘: Command
 - ⌥: Option
 - ⌃: Control
@@ -38,7 +38,7 @@ For brevity, I use the following symbols:
 - ⌦: Delete (forward delete)
 - ⊞: Super/Win key
 
-Letter and number keys are referred to in `code` form, i.e. the the key immediately to the right of Tab is `q`. The Caps Lock key is denoted ⇪.
+Letter and number keys are referred to in `code` form, i.e. the the key immediately to the right of Tab is `q` and the key to the left of Backspace is `=+`.
 
 The image below displays the function layer for macOS.
 
@@ -81,7 +81,7 @@ Navigation functions may be accessed via your right hand:
 
 
 ### Numpad Layer
-The numpad layer is accessed by holding ⇪ + `z`:
+The numpad layer is accessed by holding ⇪ + `q`:
 1. `7`, `8`, and `9` map to themselves
 2. `u`, `i`, `o` map to `4`, `5`, `6`
 3. `j`, `k`, `l` map to `1`, `2`, `3`
@@ -104,7 +104,7 @@ The below sections detail the usage of the RRKB layer.
 ### Chording
 While general usage is straightforward, what may not be is the "chording", or the use of multiple key combinations to access various functions. For example, the following critical functions may be accessed with your left hand exclusively by chording multiple keys:
 - Delete the previous or next word: Hold ⇪ + `a` (⌥) and press `d` (⌫) or `f` (⌦).
-- Delete all text on the line before or after the cursor: Hold ⇪ + `s` (⌘) and press `d` or `f`.
+- Delete all text on the line before or after the cursor: Hold ⇪ + `s` (⌘) and press `d` (⌫) or `f` (⌦).
 - Insert a new line without submitting the current text (e.g., when composing a message): Hold ⇪ + `e` (⇧) and press `r` (↵).
 
 Furthermore, by including the navigation functions with our right hand, we may access even more functions. For example:
@@ -114,6 +114,8 @@ Furthermore, by including the navigation functions with our right hand, we may a
 
 
 ### Learning the Layout
+Obviously, changing one's typing habits to accommodate the RRKB will take time and practice.
+
 Whenever possible, keys are mapped mnemonically or to be generally easy to remember: 
 - Super ("Win" key) to `w`
 - Enter ("Return") as `r`
@@ -140,4 +142,4 @@ Lastly, users may work on incorporating the miscellaneous navigation functions, 
 
 
 ### Customization
-The `z` row of the keyboard is left open for user customization. As someone who frequently writes code, I tend to map frequently used symbols like `_`, `+`, `{`, `}` which require hitting shift and reaching away from home row to access.
+The `z` row of the keyboard is left open for user customization. As someone who frequently writes code, I tend to map frequently used symbols like `_`, `+`, `{`, `}` which otherwise require hitting shift and reaching away from home row to access.
