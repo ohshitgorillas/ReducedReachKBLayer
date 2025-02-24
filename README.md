@@ -4,32 +4,38 @@
 ### This project is under currently under heavy construction and is changing daily. If you are interested, please check back for config files.
 
 ## Introduction
-The Reduced Reach Keyboard (RRKB) Layer project remaps the Caps Lock key to a left-handed function layer which brings frequently used functions within reach of the home row, enhancing typing ergonomics and efficiency by promoting reduced hand movement.
+The Reduced Reach Keyboard (RRKB) Layer project remaps the Caps Lock key to a left-handed function layer which enhances typing ergonomics and efficiency by promoting reduced hand movement.
 
 ### Inspiration and Benefits
 This project is inspired by the layering necessary for very small custom keyboards. These promote improved ergonomics and reduce hand movement by using far fewer keys; 'missing' functions, or those lacking dedicated keys, are accessed via function key layering. As examples, see https://www.reddit.com/r/MechanicalKeyboards/comments/1h3e8ns/bringing_the_full_keyboard_to_within_reach_of/ and https://github.com/argenkiwi/kenkyo
 
-This project aims to bestow some of those benefits onto users of more traditional, larger keyboards by mapping frequently used features onto the 60% portion of the keyboard under a function layer accessed by reprogramming the "Caps Lock" key. As an example, the following commands may be accessed with your left hand, leaving your right hand free to navigate with arrow keys or the mouse:
-- Backspace (backwards delete)
-- Delete (forward delete)
-- Enter
-- All modifiers
+The RRKB aims to not only bestow some of those benefits onto users of more traditional, larger keyboards, but takes it further by mapping critical features like enter and backspace to portions of the 60% portion of the keyboard under a function layer accessed by reprogramming the "Caps Lock" key. 
 
-This allows users to experience and experiment with the benefits of such keyboards without comitting to a physical downsizing, memorizing multiple complex layers, or needing to re-learn how to type: all original key functions remain unchanged except for Caps Lock (accessed via Caps Lock + Space), letting users revert to old habits in a pinch.
+As an example, the following functions may be accessed with your left hand from on or near the home row:
+- Backspace
+- Delete
+- Enter
+
+This leaves the right hand free to navigate via the mouse or navigation keys, eliminating the need for repetitive right-hand movement between the mouse/nav keys and these critical functions. Furthermore, users may "chord" these functions with common modifiers (Shift, Ctrl, Opt, Cmd), also re-mapped to left-handed keys, to, e.g., delete words or lines of text without engaging your right hand or moving your left hand away from home. 
+
+The RRKB therefore allows users to experience and experiment with the ergonomic benefits of small keyboards without comitting to a physical downsizing, memorizing multiple complex layers, or needing to re-learn how to type: all original key functions remain unchanged except for Caps Lock (accessed via Caps Lock + Space), letting users revert to old habits in a pinch.
+
+
 
 ### Compatibility
-This layout works with most 60% or larger traditional keyboards (non-ortholinear).
+The RRKB is designed to work with 60% or larger keyboards with traditional (i.e., non-ortholinear) layouts.
 
-Furthermore, this project is incompatible with most HHKB-style keyboards that place Ctrl in the Caps Lock position. Some HHKB-style keyboards may offer a dedicated left-hand function key that could be used instead, however, the ergonomics are optimized for the key in the traditional Caps Lock position. 
+The spacebar (tap for space, hold for function layer) may also be used, assuming the user's keyboard supports such a function. Some enthusiast keyboards offer "split spacebars", splitting the large spacebar key up into two or more smaller keys, one of which may be used as a dedicated Fn key in place of the Caps Lock key.
 
-The spacebar can also be used to access the layer with good ergonomics (tap for space, hold for layer) if the user`s software hardware supports it.
+The RRKB is incompatible with most HHKB-style keyboards that remove Ctrl from the bottom row and place it in the traditional Caps Lock position. Some HHKB-style keyboards may offer split spacebars, in which case one of those keys may be used to access the Fn layer instead. Other HHKB-style keyboards may offer a dedicated left-hand function key by splitting left shift that could be used instead, however, the ergonomics are optimized for the key in the traditional Caps Lock position.
+
 
 
 ## Layout
-Below are the specific keymappings within the Caps Lock layer.
+The keymappings within the RRKB are detailed below.
 
 For brevity, I use the following symbols:
-- ⇪: Caps Lock
+- ⇪: Caps Lock (this indicates the newly reprogrammed function key, rather than the actual Caps Lock functionality)
 - ⌘: Command
 - ⌥: Option
 - ⌃: Control
