@@ -150,4 +150,7 @@ Lastly, users may work on incorporating the miscellaneous navigation functions, 
 
 
 ### Customization
-The `z` row of the keyboard is left open for user customization. As someone who frequently writes code, I tend to map frequently used symbols like `_`, `+`, `{`, `}` which otherwise require hitting shift and reaching away from home row to access.
+The `z` row of the keyboard is left open for user customization. Some suggestions:
+
+1. Map `z` to Ctrl + Tab to easily switch tabs. Add right shift to go back a tab.
+2. `x`, `c`, and `v` may be mapped to Cut, Copy, and Paste for an HHKB-like feel.
