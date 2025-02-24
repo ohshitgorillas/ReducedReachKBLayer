@@ -35,7 +35,8 @@ The RRKB is incompatible with most HHKB-style keyboards that remove Ctrl from th
 The keymappings within the RRKB are detailed below.
 
 For brevity, I use the following symbols:
-- ⇪: Caps Lock (this indicates the newly reprogrammed function key, rather than the actual Caps Lock functionality)
+- ƒ: Function key (located where Caps Lock was)
+- ⇪: Caps Lock (the literal caps lock function)
 - ⌘: Command
 - ⌥: Option
 - ⌃: Control
@@ -61,7 +62,7 @@ The image below displays the numpad layer:
 
 
 ### Left Hand (main functions + modifiers)
-The left hand can be used to access common functions that traditionally require the right hand such as enter, backspace, and delete, allowing the user to comfortably perform these functions while navigating with the right hand or mouse, minimizing repetitive movements of the right hand.
+While holding ƒ, the left hand can be used to access critical functions which traditionally require the right hand, allowing the user to comfortably perform these functions while navigating with the right hand or mouse.
 1. `q` opens the numpad layer
 2. `w` → ⌃ on Mac, ⊞ on Windows
 3. `e` → ⇧
@@ -75,7 +76,7 @@ The left hand can be used to access common functions that traditionally require 
 
 
 ### Right Hand (navigation)
-Navigation functions may be accessed via your right hand:
+Navigation functions (and print screen) may be accessed via your right hand:
 1. `i` → up 
 2. `j` → left
 3. `k` → down
@@ -88,7 +89,7 @@ Navigation functions may be accessed via your right hand:
 
 
 ### Numpad Layer
-The numpad layer is accessed by holding ⇪ + `q`:
+The numpad layer is accessed by holding ƒ + `q`:
 1. `7`, `8`, and `9` map to themselves
 2. `u`, `i`, `o` map to `4`, `5`, `6`
 3. `j`, `k`, `l` map to `1`, `2`, `3`
@@ -99,8 +100,8 @@ The numpad layer is accessed by holding ⇪ + `q`:
 ### Miscellaneous Features
 Below are the miscellaneous features of the layout:
 
-- The caps lock feature is accessed by ⇪ + spacebar.
-- The layer may be toggled with ⇪ + `t` such that ⇪ does not need to be held to access the layer. Pressing `t` will then un-toggle the layer.
+- The caps lock feature is accessed by ƒ + spacebar.
+- The layer may be toggled with ƒ + `t` such that ƒ does not need to be held to access the layer. Pressing `t` will then un-toggle the layer.
 - The number row keys are mapped to the function keys (`1` as `F1`, `2` as `F2`, ... `=/+` as `F12`). This is a common remapping found in most 65% or smaller keyboards.
 
 
