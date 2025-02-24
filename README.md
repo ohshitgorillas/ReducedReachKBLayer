@@ -90,7 +90,7 @@ Navigation functions (and print screen) may be accessed via your right hand:
 
 ### Numpad Layer
 The numpad layer is accessed by holding ƒ + `q`:
-1. `7`, `8`, and `9` map to themselves
+1. `7&`, `8*`, and `9)` map to `7`, `8`, `9`
 2. `u`, `i`, `o` map to `4`, `5`, `6`
 3. `j`, `k`, `l` map to `1`, `2`, `3`
 4. `m` and `,<` map to `0` and `00` respectively
@@ -100,9 +100,9 @@ The numpad layer is accessed by holding ƒ + `q`:
 ### Miscellaneous Features
 Below are the miscellaneous features of the layout:
 
-- The caps lock feature is accessed by ƒ + spacebar.
+- ⇪ is accessed by ƒ + spacebar. On keyboards with a menu key, ⇪ may also replace Menu for users who want a dedicated ⇪ key.
 - The layer may be toggled with ƒ + `t` such that ƒ does not need to be held to access the layer. Pressing `t` will then un-toggle the layer.
-- The number row keys are mapped to the function keys (`1` as `F1`, `2` as `F2`, ... `=/+` as `F12`). This is a common remapping found in most 65% or smaller keyboards.
+- The number row keys are mapped to the function keys (`1!` as `F1`, `2@` as `F2`, ... `=/+` as `F12`). This is a common remapping found in most 65% or smaller keyboards.
 
 
 ## Usage
@@ -111,14 +111,14 @@ The below sections detail the usage of the RRKB layer.
 
 ### Chording
 While general usage is straightforward, what may not be is the "chording", or the use of multiple key combinations to access various functions. For example, the following critical functions may be accessed with your left hand exclusively by chording multiple keys:
-- Delete the previous or next word: Hold ⇪ + `a` (⌥) and press `d` (⌫) or `f` (⌦).
-- Delete all text on the line before or after the cursor: Hold ⇪ + `s` (⌘) and press `d` (⌫) or `f` (⌦).
-- Insert a new line without submitting the current text (e.g., when composing a message): Hold ⇪ + `e` (⇧) and press `r` (↵).
+- Delete the previous or next word: Hold ƒ + `a` (⌥) and press `d` (⌫) or `f` (⌦).
+- Delete all text on the line before or after the cursor: Hold ƒ + `s` (⌘) and press `d` (⌫) or `f` (⌦).
+- Insert a new line without submitting the current text (e.g., when composing a message): Hold ƒ + `e` (⇧) and press `r` (↵).
 
 Furthermore, by including the navigation functions with our right hand, we may access even more functions. For example:
-– Jump the cursor to the next or previous word: Hold ⇪ + `a` (⌥) and press `l` (right arrow) or `j` (left arrow).
-- Highlight the previous or next page of text: Hold ⇪ + `e` (⇧) and press `y` (Page Up) or `h` (Page Down).
-- Move a line of text up or down (in some editors): Hold ⇪ + `a` (⌥) and press `i` (up) or `k` (down).
+– Jump the cursor to the next or previous word: Hold ƒ + `a` (⌥) and press `l` (right arrow) or `j` (left arrow).
+- Highlight the previous or next page of text: Hold ƒ + `e` (⇧) and press `y` (Page Up) or `h` (Page Down).
+- Move a line of text up or down (in some editors): Hold ƒ + `a` (⌥) and press `i` (up) or `k` (down).
 
 
 ### Learning the Layout
@@ -132,13 +132,13 @@ Whenever possible, keys are mapped mnemonically or to be generally easy to remem
 - Print Screen to `p`
 
 In other cases, keys are mapped to optimize ergonomics. For instance, while it may be more mnemonic to place ⇧ (Shift) at `s`, ⌘ is instead mapped to `s` and ⇧ to `e` because the ergonomics are better this way:
-- Chording ⌘ + ⌫ or ⌦ is useful, whereas ⇧ is not (to my knowledge). I therefore keep ⌘ on the home row with ⌫ and ⌦, because ⇪ + `s` + `d` is more ergonomic than, e.g., ⇪ + `e` + `d`.
-- Chording ⇧ + ↵ is more common than chording ⌘ + ↵ (in my experience), and ⇪ + `e` + `r` is more ergonomic than ⇪ + `s` + `r`, although both are possible without too much effort.
+- Chording ⌘ + ⌫ or ⌦ is useful, whereas ⇧ is not (to my knowledge). I therefore keep ⌘ on the home row with ⌫ and ⌦, because ƒ + `s` + `d` is more ergonomic than, e.g., ƒ + `e` + `d`.
+- Chording ⇧ + ↵ is more common than chording ⌘ + ↵ (in my experience), and ƒ + `e` + `r` is more ergonomic than ƒ + `s` + `r`, although both are possible without too much effort.
 
 Because the functions within the layer are quite dense and will take time to get used to, it's recommended to start slow. The most useful functions are accessing these from the left hand:
-1. ⇪ + `r` as Enter
-2. ⇪ + `d` or `f` as Backspace and Delete respectively.
-3. ⇪ + `a` + `d` or `f` to delete the previous or next word, respectively.
+1. ƒ + `r` as Enter
+2. ƒ + `d` or `f` as Backspace and Delete respectively.
+3. ƒ + `a` + `d` or `f` to delete the previous or next word, respectively.
 
 From there, work on incorporating:
 1. Arrow keys as `ijkl`
