@@ -90,7 +90,7 @@ Navigation functions (and print screen) may be accessed via your right hand:
 
 ### Numpad Layer
 The numpad layer is accessed by holding ƒ + `q`:
-1. `7&`, `8*`, and `9)` map to `7`, `8`, `9`
+1. `7&`, `8*`, and `9(` map to `7`, `8`, `9`
 2. `u`, `i`, `o` map to `4`, `5`, `6`
 3. `j`, `k`, `l` map to `1`, `2`, `3`
 4. `m` and `,<` map to `0` and `00` respectively
