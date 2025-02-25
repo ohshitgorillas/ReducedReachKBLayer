@@ -132,11 +132,11 @@ Whenever possible, keys are mapped mnemonically or to be generally easy to remem
 - Print Screen to `p`
 
 In other cases, keys are mapped to optimize ergonomics. For instance, while it may be more mnemonic to place ⇧ (Shift) at `s`, ⌘ is instead mapped to `s` and ⇧ to `e` because the ergonomics are better this way:
-- Chording ⌘ + ⌫ or ⌦ is useful, whereas ⇧ is not (to my knowledge). I therefore keep ⌘ on the home row with ⌫ and ⌦, because ƒ + `s` + `d` is more ergonomic than, e.g., ƒ + `e` + `d`.
+- Chording ⌘ + ⌫ or ⌦ is useful, whereas ⇧ + ⌫ or ⌦ is not (to my knowledge). I therefore keep ⌘ on the home row with ⌫ and ⌦, because ƒ + `s` + `d` is more ergonomic than, e.g., ƒ + `e` + `d`.
 - Chording ⇧ + ↵ is more common than chording ⌘ + ↵ (in my experience), and ƒ + `e` + `r` is more ergonomic than ƒ + `s` + `r`, although both are possible without too much effort.
 
 Because the functions within the layer are quite dense and will take time to get used to, it's recommended to start slow. The most useful functions are accessing these from the left hand:
-1. ƒ + `r` as Enter
+1. ƒ + `r` as Enter.
 2. ƒ + `d` or `f` as Backspace and Delete respectively.
 3. ƒ + `a` + `d` or `f` to delete the previous or next word, respectively.
 
@@ -150,7 +150,9 @@ Lastly, users may work on incorporating the miscellaneous navigation functions, 
 
 
 ### Customization
-The `z` row of the keyboard is left open for user customization. Some suggestions:
+The `z` row of the keyboard is left open for user customization. 
 
-1. Map `z` to Ctrl + Tab to easily switch tabs. Add right shift to go back a tab.
-2. `x`, `c`, and `v` may be mapped to Cut, Copy, and Paste for an HHKB-like feel.
+Some suggestions:
+1. Map `z` to Ctrl + Tab to easily switch tabs. Right shift can easily be accessed to tab backwards as well.
+2. `x`, `c`, and `v` may be mapped to Cut, Copy, and Paste for an HHKB-like feel. Alternatively, Mac users may wish to map screenshot shortcuts to `x`, `c`, and/or `v` (⌘ + ⇧ + `3#`, `4$`, and/or `5%`).
+3. `,<` and `.>` may be mapped to volume down and up, respectively.
