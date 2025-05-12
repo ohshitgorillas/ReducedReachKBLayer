@@ -189,12 +189,3 @@ From there, work on incorporating:
 4. Ctrl/Win as `w` with `jl` to switch desktops
 
 Lastly, users may work on incorporating the miscellaneous navigation functions, symbols, and numpad layer.
-
-
-### Customization
-The `z` row of the keyboard is left open for user customization. 
-
-Some suggestions:
-1. Map `z` to Ctrl + Tab to easily switch tabs. Left shift can easily be accessed to tab backwards as well.
-2. `x`, `c`, and `v` may be mapped to Cut, Copy, and Paste for an HHKB-like feel. Alternatively, Mac users may wish to map screenshot shortcuts to `x`, `c`, and/or `v` (⌘ + ⇧ + `3#`, `4$`, and/or `5%`).
-3. `,<` and `.>` may be mapped to volume down and up, respectively.
