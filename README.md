@@ -3,10 +3,10 @@
 
 ### This project is under currently under heavy construction and is changing frequently. If you are interested, please check back for updates and config files.
 
-## Introduction
+# Introduction
 The Reduced Reach Keyboard (RRKB) Layer project remaps the Caps Lock key to a left-handed function layer which enhances typing ergonomics and efficiency by promoting reduced hand movement.
 
-### Inspiration and Benefits
+## Inspiration and Benefits
 This project is inspired by the function keys and custom layering necessary for very small custom keyboards. These promote improved ergonomics and reduce hand movement by using far fewer keys over a more compact layout; 'missing' functions, or those lacking dedicated keys, are accessed via function keys. As examples, see:
 
 * https://www.reddit.com/r/MechanicalKeyboards/comments/1h3e8ns/bringing_the_full_keyboard_to_within_reach_of/
@@ -14,22 +14,24 @@ This project is inspired by the function keys and custom layering necessary for 
 
 The RRKB aims to not only bestow some of those benefits onto users of more traditional, larger keyboards, but further remaps core functions like enter and backspace to on or near the home row via a function layer accessed via the "Caps Lock" key. The RRKB therefore allows users to experience and experiment with the ergonomic benefits of small keyboards without comitting to a physical downsizing, memorizing multiple layers, or needing to learn a new layout: all original key functions remain unchanged except for Caps Lock (accessed via Caps Lock + Space), letting users revert to old habits in a pinch.
 
-### Compatibility
+## Compatibility
 The RRKB is designed to work with 60% or larger keyboards with traditional, staggered (i.e., non-ortholinear) layouts.
+
+It is compatible with Windows, Linux, and MacOS layouts. To maintain similar usage, minor adjustments to the layout are required between Windows/Linux and MacOS modes.
 
 The RRKB is incompatible with most HHKB-style keyboards that remove Ctrl from the bottom row and place it in the traditional Caps Lock position. Some HHKB-style keyboards may offer split spacebars, in which case one of those keys may be used to access the Fn layer instead.
 
-As an alternative, some enthusiast keyboards offer "split spacebars", splitting the large spacebar key up into two or more smaller keys, one of which may be used as a dedicated Fn key in place of the Caps Lock key. Using a full-sized spacebar in "tap for space, hold for function" mode is not recommended as the system is likely to misinterpret keystrokes even with careful adjustment of timing in Vial or QMK.
+As an alternative, some enthusiast keyboards offer "split spacebars", splitting the spacebar key up into two or more smaller keys, one of which may be used as a dedicated Fn key in place of the Caps Lock key. Using a full-sized spacebar in "tap for space, hold for function" mode is not recommended as the system is likely to misinterpret keystrokes even with careful adjustment of timing in Vial or QMK.
 
 
 
-## Layout
-### Outline
+# Layout
+## Outline
 The layout may be split into three sections:
 - The **left hand** accesses critical functions like enter, backspace, delete and modifiers (shift, ctrl, etc.). It also has access to Compose, brings up the numpad layer, and controls the system volume.
 - The **right hand** accesses navigation functions and print screen.
 
-### Keymappings
+## Keymappings
 The keymappings within the RRKB are detailed below.
 
 For brevity, I use the following symbols:
@@ -58,23 +60,45 @@ The image below displays the numpad layer:
 
 ![image](https://github.com/user-attachments/assets/a904da2b-2a39-4528-8deb-92ca30bcfb1a)
 
-
-### Left Hand (main functions + modifiers)
+### Left Hand
 While holding ƒ, the left hand can be used to access critical functions which traditionally require the right hand, allowing the user to comfortably perform these functions while navigating with the right hand or mouse.
-1. `q` opens the numpad layer
-2. `w` → ⌃ on Mac, ⊞ on Windows
+
+Because of differences in modifier behavior, two different version of the left-hand layout exist:
+
+#### Left Hand — MacOS
+1. `q` → Compose
+2. `w` → ⌃
 3. `e` → ⇧
 4. `r` → ↵
 5. `t` toggles the layer on/off (i.e., so you don't have to hold down ⇪) 
-6. `a` → ⌥ on Mac, ⌃ on Windows
-7. `s` → ⌘ on Mac, Alt on Windows
+6. `a` → ⌥
+7. `s` → ⌘
 8. `d` → ⌫
 9. `f` → ⌦
-10. `g` → Insert
+10. `g` → Go to app...
+11. `z` → Numpad layer
+12. `x` → Mute/Unmute Volume
+13. `c` → Volume down
+14. `v` → Volume up
 
+#### Left Hand — Windows
+1. `q` → Compose
+2. `w` → ⊞ on Windows
+3. `e` → ⇧
+4. `r` → ↵
+5. `t` toggles the layer on/off (i.e., so you don't have to hold down ⇪) 
+6. `a` → ⌃
+7. `s` → Alt
+8. `d` → ⌫
+9. `f` → ⌦
+10. `g` → Go to app...
+11. `z` → Numpad layer
+12. `x` → Mute/Unmute Volume
+13. `c` → Volume down
+14. `v` → Volume up
 
-### Right Hand (navigation)
-Navigation functions (and print screen) may be accessed via your right hand:
+### Right Hand
+Navigation functions (and print screen) may be accessed via your right hand while holding ƒ:
 1. `i` → up 
 2. `j` → left
 3. `k` → down
@@ -85,9 +109,28 @@ Navigation functions (and print screen) may be accessed via your right hand:
 8. `o` → End
 9. `p` → Print Screen
 
+Optionally, for users who write code, the following may also be assigned to reduce reaching to produce `_`, `+`, `(`, and `)`:
+10. `[{` → `(`
+11. `]}` → `)`
+12. `;:` → `_`
+13. `'"` → `+`
+
+Furthermore, for MacOS, the following Print Screen functions are defined:
+14. `,<` → Capture entire screen (⌘ + ⇧ + `3#`)
+15. `.>` → Capture cropped portion of screen (⌘ + ⇧ + `4$`)
+16. `/?` → Open screen recorder feature (⌘ + ⇧ + `5%`)
+
+Lastly, we may optionally re-assign the features Select All (⌘ + `a`), cut (⌘ + `x`), copy (⌘ + `c`), and paste (⌘ + `v`) to the right-hand modifiers:
+17. Right ⇧ → Select All (⌘ + `a`)
+18. Right ⌘ → Cut (⌘ + `x`)
+19. Right ⌥ → Copy (⌘ + `c`)
+20. Right ⌃ → Paste (⌘ + `v`)
+
+Note that the last set of modifications for cut, paste, etc. are optimized for a 7U spacebar configuration.
+
 
 ### Numpad Layer
-The numpad layer is accessed by holding ƒ + `q`:
+The numpad layer is accessed by holding ƒ + `z`:
 1. `7&`, `8*`, and `9(` map to `7`, `8`, `9`
 2. `u`, `i`, `o` map to `4`, `5`, `6`
 3. `j`, `k`, `l` map to `1`, `2`, `3`
