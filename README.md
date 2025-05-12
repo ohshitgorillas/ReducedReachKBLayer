@@ -157,6 +157,7 @@ While general usage is straightforward, what may not be is the "chording", or th
 - Insert a new line without submitting the current text (e.g., when composing a message): Hold ƒ + `e` (⇧) and press `r` (↵).
 
 Furthermore, by including the navigation functions with our right hand, we may access even more functions. For example:
+
 – Jump the cursor to the next or previous word: Hold ƒ + `a` (⌥) and press `l` (right arrow) or `j` (left arrow).
 - Highlight the previous or next page of text: Hold ƒ + `e` (⇧) and press `y` (Page Up) or `h` (Page Down).
 - Move a line of text up or down (in some editors): Hold ƒ + `a` (⌥) and press `i` (up) or `k` (down).
